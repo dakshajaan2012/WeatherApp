@@ -18,7 +18,7 @@ const WeatherForm = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiKey = "564cf8da8efd4ec781726f51c86fc58d";
+  const apiKey = "";
 
   const handleFormSubmit = async () => {
     if (!city) {
