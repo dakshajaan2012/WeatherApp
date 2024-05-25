@@ -1,0 +1,84 @@
+
+/* Amout.module.css*/
+
+
+
+/* AboutUs.module.css */
+
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 20px auto; 
+    /*background-color: transparent;*/
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px; 
+    overflow: hidden; 
+    width: 80%; 
+    max-width: 800px; 
+    padding: 20px;
+    height: auto; 
+    background: linear-gradient(to bottom, #3498db, #1abc9c); 
+    animation: fadeIn 1s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+.button {
+    width: 100px; 
+    background-color: transparent;
+    margin-left: 10px; 
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #3498db; 
+    border-radius: 5px; 
+
+}
+
+.button:hover {
+    background-color: #3498db; 
+    color: white; 
+}
+
+.pictureContainer {
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+    /*margin-top: 10px;*/
+}
+
+.picture {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    /*padding: 10px;*/
+}
+
+.aboutUsContainer h2 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    /*background-color: rgb(89, 95, 95);*/
+    width: 800px;
+    border-radius: 5px;
+    
+}
+
+.aboutUsContainer p {
+    margin-bottom: 15px;
+}

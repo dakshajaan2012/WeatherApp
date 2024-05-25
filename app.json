@@ -22,6 +22,39 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "description": "Your weather app description here",
+    "privacy": "public",
+    "keywords": [
+      "weather",
+      "forecast",
+      "react",
+      "native",
+      "expo"
+    ],
+
+    "expo": {
+      "plugins": ["expo-apple-authentication"]
+    },
+    "plugins":[
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ]
+    ]
   }
 }
+
